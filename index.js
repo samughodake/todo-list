@@ -54,6 +54,8 @@ function show_tasks(date) {
     var label = document.createElement('label')
     label.htmlFor = date
     label.id = date
+     label.className = "strikethrough"
+
     label.appendChild(document.createTextNode(task))
     show_todos.appendChild(checkbox)
     show_todos.appendChild(label)
