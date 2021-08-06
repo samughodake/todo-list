@@ -72,7 +72,7 @@ input[type="checkbox"]:checked + label.strikethrough {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 40% !important;
+  
   }
   .todo input {
     width: 330px !important;
@@ -84,7 +84,7 @@ input[type="checkbox"]:checked + label.strikethrough {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 33%;
+    
   }
   .todo input {
     width: 400px;
